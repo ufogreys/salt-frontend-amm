@@ -2114,10 +2114,10 @@
     estree-walker "^1.0.1"
     picomatch "^2.2.2"
 
-"@saltswap/uikit@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@saltswap/uikit/-/uikit-1.2.0.tgz#52a6056592d1230a38ed102eb7022b4b7eba7de6"
-  integrity sha512-R+Gjvdhi6tw4owq2hOXqTEzL0ddAfxQzsnXMFhM1dVNFNPVH39CbZXtgtIQ/NYNa5XZPlCkYzRX5onvxdtnfkg==
+"@saltswap/uikit@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@saltswap/uikit/-/uikit-1.2.1.tgz#744cb4a94579fb61a3afc6dc168909a583995195"
+  integrity sha512-pGsXOOTxLmaxXnJQv9Bq1MTL7QZLn53G+AahVqbrbidDLJFp0cX4Z2WSea/FghtjIlicDuUdkflV+1FfnOPctw==
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"
