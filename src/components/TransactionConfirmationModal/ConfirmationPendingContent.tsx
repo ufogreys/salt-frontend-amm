@@ -13,8 +13,7 @@ const CustomLightSpinner = styled(Spinner)<{ size: string }>`
   width: ${({ size }) => size};
 `
 
-const ConfirmationPendingContent = ({ onDismiss, pendingText }: ConfirmationPendingContentProps) => {
-  return (
+const ConfirmationPendingContent = ({ onDismiss, pendingText }: ConfirmationPendingContentProps) => (
     <Wrapper>
       <Section>
         <ContentHeader onDismiss={onDismiss}>Waiting for confirmation</ContentHeader>
@@ -32,6 +31,5 @@ const ConfirmationPendingContent = ({ onDismiss, pendingText }: ConfirmationPend
       </Section>
     </Wrapper>
   )
-}
 
 export default ConfirmationPendingContent

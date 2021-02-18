@@ -44,10 +44,8 @@ const BlueCardStyled = styled(Card)`
   width: fit-content;
 `
 
-export const BlueCard = ({ children, ...rest }: any) => {
-  return (
+export const BlueCard = ({ children, ...rest }: any) => (
     <BlueCardStyled {...rest}>
       <Text color="#24c7d6">{children}</Text>
     </BlueCardStyled>
   )
-}

@@ -8,8 +8,7 @@ type ConfirmationModalContentProps = {
   bottomContent: () => React.ReactNode
 }
 
-const ConfirmationModalContent = ({ title, bottomContent, onDismiss, topContent }: ConfirmationModalContentProps) => {
-  return (
+const ConfirmationModalContent = ({ title, bottomContent, onDismiss, topContent }: ConfirmationModalContentProps) => (
     <Wrapper>
       <Section>
         <ContentHeader onDismiss={onDismiss}>{title}</ContentHeader>
@@ -18,6 +17,5 @@ const ConfirmationModalContent = ({ title, bottomContent, onDismiss, topContent 
       <BottomSection gap="12px">{bottomContent()}</BottomSection>
     </Wrapper>
   )
-}
 
 export default ConfirmationModalContent

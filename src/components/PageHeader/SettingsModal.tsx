@@ -10,13 +10,11 @@ type SettingsModalProps = {
 // TODO: Fix UI Kit typings
 const defaultOnDismiss = () => null
 
-const SettingsModal = ({ onDismiss = defaultOnDismiss }: SettingsModalProps) => {
-  return (
+const SettingsModal = ({ onDismiss = defaultOnDismiss }: SettingsModalProps) => (
     <Modal title="Settings" onDismiss={onDismiss}>
       <SlippageToleranceSetting />
       <TransactionDeadlineSetting />
     </Modal>
   )
-}
 
 export default SettingsModal

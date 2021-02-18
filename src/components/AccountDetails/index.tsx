@@ -213,10 +213,10 @@ const MainWalletAction = styled(WalletAction)`
 function renderTransactions(transactions: string[]) {
   return (
     <TransactionListWrapper>
-      {transactions.map((hash, i) => {
+      {transactions.map((hash, i) => 
         // eslint-disable-next-line react/no-array-index-key
-        return <Transaction key={i} hash={hash} />
-      })}
+         <Transaction key={i} hash={hash} />
+      )}
     </TransactionListWrapper>
   )
 }
@@ -321,7 +321,7 @@ export default function AccountDetails({
                     <WalletAction
                       style={{ fontSize: '.825rem', fontWeight: 400, marginRight: '8px' }}
                       onClick={() => {
-                        ;(connector as any).close()
+                        (connector as any).close()
                       }}
                     >
                       Disconnect

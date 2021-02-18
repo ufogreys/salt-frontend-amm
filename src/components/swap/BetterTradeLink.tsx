@@ -12,15 +12,13 @@ export default function BetterTradeLink({ version }: { version: Version }) {
   const location = useLocation()
   const search = useParsedQueryString()
 
-  const linkDestination = useMemo(() => {
-    return {
+  const linkDestination = useMemo(() => ({
       ...location,
       search: `?${stringify({
         ...search,
         use: version !== DEFAULT_VERSION ? version : undefined,
       })}`,
-    }
-  }, [location, search, version])
+    }), [location, search, version])
 
   return (
     <YellowCard style={{ marginTop: '12px', padding: '8px 4px' }}>

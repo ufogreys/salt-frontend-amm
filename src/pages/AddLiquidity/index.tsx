@@ -91,22 +91,18 @@ export default function AddLiquidity({
 
   // get the max amounts user can add
   const maxAmounts: { [field in Field]?: TokenAmount } = [Field.CURRENCY_A, Field.CURRENCY_B].reduce(
-    (accumulator, field) => {
-      return {
+    (accumulator, field) => ({
         ...accumulator,
         [field]: maxAmountSpend(currencyBalances[field]),
-      }
-    },
+      }),
     {}
   )
 
   const atMaxAmounts: { [field in Field]?: TokenAmount } = [Field.CURRENCY_A, Field.CURRENCY_B].reduce(
-    (accumulator, field) => {
-      return {
+    (accumulator, field) => ({
         ...accumulator,
         [field]: maxAmounts[field]?.equalTo(parsedAmounts[field] ?? '0'),
-      }
-    },
+      }),
     {}
   )
 
@@ -193,8 +189,7 @@ export default function AddLiquidity({
       })
   }
 
-  const modalHeader = () => {
-    return noLiquidity ? (
+  const modalHeader = () => noLiquidity ? (
       <AutoColumn gap="20px">
         <LightCard mt="20px" borderRadius="20px">
           <RowFlat>
@@ -233,10 +228,8 @@ export default function AddLiquidity({
         </Italic>
       </AutoColumn>
     )
-  }
 
-  const modalBottom = () => {
-    return (
+  const modalBottom = () => (
       <ConfirmAddModalBottom
         price={price}
         currencies={currencies}
@@ -246,7 +239,6 @@ export default function AddLiquidity({
         poolTokenPercentage={poolTokenPercentage}
       />
     )
-  }
 
   const pendingText = `Supplying ${parsedAmounts[Field.CURRENCY_A]?.toSignificant(6)} ${
     currencies[Field.CURRENCY_A]?.symbol

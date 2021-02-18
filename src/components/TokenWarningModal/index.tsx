@@ -117,9 +117,7 @@ export default function TokenWarningModal({
           <Text>
             If you purchase an arbitrary token, <strong>you may be unable to sell it back.</strong>
           </Text>
-          {tokens.map((token) => {
-            return <TokenWarningCard key={token.address} token={token} />
-          })}
+          {tokens.map((token) => <TokenWarningCard key={token.address} token={token} />)}
           <RowBetween>
             <div>
               <label htmlFor="understand-checkbox" style={{ cursor: 'pointer', userSelect: 'none' }}>

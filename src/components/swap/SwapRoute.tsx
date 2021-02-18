@@ -8,7 +8,7 @@ import CurrencyLogo from '../CurrencyLogo'
 
 const { black: Black } = TYPE
 
-export default memo(function SwapRoute({ trade }: { trade: Trade }) {
+export default memo(({ trade }: { trade: Trade }) => {
   const theme = useContext(ThemeContext)
   return (
     <Flex
