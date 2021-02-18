@@ -1,12 +1,12 @@
 import React, { useCallback, useEffect, useState } from 'react'
 import { ThemeProvider as SCThemeProvider } from 'styled-components'
-import { light, dark } from '@pancakeswap-libs/uikit'
+import { light, dark } from '@saltswap/uikit'
 
 const CACHE_KEY = 'IS_DARK'
 
 export interface ThemeContextType {
-  isDark: boolean;
-  toggleTheme: () => void;
+  isDark: boolean
+  toggleTheme: () => void
 }
 
 const ThemeContext = React.createContext<ThemeContextType>({ isDark: false, toggleTheme: () => null })
@@ -17,20 +17,20 @@ const ThemeContextProvider: React.FC = ({ children }) => {
     return isDarkUserSetting ? JSON.parse(isDarkUserSetting) : false
   })
 
-  const handleSetup = useCallback(event=>{
-    if(event && event.data && typeof event.data === "string" && event.data.startsWith("[iFrameSizer]message:")){
-      const dataStr = event.data.substring("[iFrameSizer]message:".length);
-      const data = JSON.parse(dataStr);
-      console.log("data.isDark", data.isDark);
-      setIsDark(()=>data.isDark);
+  const handleSetup = useCallback((event) => {
+    if (event && event.data && typeof event.data === 'string' && event.data.startsWith('[iFrameSizer]message:')) {
+      const dataStr = event.data.substring('[iFrameSizer]message:'.length)
+      const data = JSON.parse(dataStr)
+      console.log('data.isDark', data.isDark)
+      setIsDark(() => data.isDark)
     }
-  }, []);
-  useEffect(()=>{
-    window.addEventListener("message", handleSetup);
+  }, [])
+  useEffect(() => {
+    window.addEventListener('message', handleSetup)
     return () => {
-      window.removeEventListener('message', handleSetup);
-    };
-  }, [handleSetup]);
+      window.removeEventListener('message', handleSetup)
+    }
+  }, [handleSetup])
 
   const toggleTheme = () => {
     setIsDark((prevState: any) => {

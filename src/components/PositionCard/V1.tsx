@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, RouteComponentProps, withRouter } from 'react-router-dom'
 import { Token, TokenAmount, WETH } from '@pancakeswap-libs/sdk'
-import { Button, Text } from '@pancakeswap-libs/uikit'
+import { Button, Text } from '@saltswap/uikit'
 import { AutoColumn } from '../Column'
 import { RowBetween, RowFixed } from '../Row'
 import { FixedHeightRow, HoverCard } from './index'
@@ -25,14 +25,7 @@ function V1PositionCard({ token, V1LiquidityBalance }: PositionCardProps) {
             <Text fontSize="20px" style={{ marginLeft: '' }}>
               {`${chainId && token.equals(WETH[chainId]) ? 'WETH' : token.symbol}/ETH`}
             </Text>
-            <Text
-              fontSize="12px"
-              ml="0.5rem"
-              px="0.75rem"
-              py="0.25rem"
-              style={{ borderRadius: '1rem' }}
-              color="black"
-            >
+            <Text fontSize="12px" ml="0.5rem" px="0.75rem" py="0.25rem" style={{ borderRadius: '1rem' }} color="black">
               V1
             </Text>
           </RowFixed>

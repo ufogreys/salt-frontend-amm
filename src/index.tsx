@@ -1,6 +1,6 @@
 import React, { StrictMode } from 'react'
 import ReactDOM from 'react-dom'
-import { ResetCSS } from '@pancakeswap-libs/uikit'
+import { ResetCSS } from '@saltswap/uikit'
 import GlobalStyle from './style/Global'
 import App from './pages/App'
 import ApplicationUpdater from './state/application/updater'
@@ -12,11 +12,12 @@ import 'inter-ui'
 import './i18n'
 
 if ('ethereum' in window) {
-  (window.ethereum as any).autoRefreshOnNetworkChange = false
+  // eslint-disable-next-line @typescript-eslint/no-extra-semi
+  ;(window.ethereum as any).autoRefreshOnNetworkChange = false
 }
 
 window.addEventListener('error', () => {
-   localStorage?.removeItem('redux_localstorage_simple_lists')
+  localStorage?.removeItem('redux_localstorage_simple_lists')
 })
 
 ReactDOM.render(
