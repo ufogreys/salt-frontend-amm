@@ -1,7 +1,8 @@
-# Contributing to the Pancake ecosystem 🥞
+# Contributing to the SaltSwap ecosystem 🧂
 
 Thanks for taking the time to contribute !
-You can start by reading our [Contribution guidelines](https://docs.pancakeswap.finance/code/contributing) first.
+
+You can start by reading our [Contribution guidelines](https://docs.saltswap.finance/code/contributing) first.
 
 ## Setup
 
@@ -66,4 +67,4 @@ The translation component can handle variables being passed in from Crowdin, wit
 
 It will only work if there is only **one** variable passed in, and if that variable within Crowdin is wrapped in **%** signs, i.e.:
 
-Translation in crowdin: `%asset% Earned` [link](https://crowdin.com/translate/pancakeswap/8/en-de#330)
+Translation in crowdin: `%asset% Earned` [link](https://crowdin.com/translate/saltswap/8/en-de#330)
