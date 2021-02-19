@@ -11,7 +11,7 @@
   "keywords": ["pancake", "default"],
   "tokens": [
     {
-      "name": "Salt bae",
+      "name": "Salt Token",
       "symbol": "SALT",
       "address": "0x89dcddca577f3658a451775d58ea99da532263c8",
       "chainId": 97,
