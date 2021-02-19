@@ -52,7 +52,7 @@ const config: MenuEntry[] = [
     items: [
       // {
       //   label: 'Voting',
-      //   href: 'https://voting.pancakeswap.finance',
+      //   href: 'https://voting.saltswap.finance',
       // },
       {
         label: "Github",
@@ -64,7 +64,7 @@ const config: MenuEntry[] = [
       },
       {
         label: "Blog",
-        href: "https://medium.com/@saltswap",
+        href: "https://saltswap.medium.com",
       },
     ],
   }
