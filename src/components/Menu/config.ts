@@ -13,11 +13,13 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: '/swap'
+        href: '/swap',
+        icon: "ExchangeIcon"
       },
       {
         label: 'Liquidity',
-        href: '/pool'
+        href: '/pool',
+        icon: 'LiquidityIcon'
       }
     ]
   },
@@ -36,16 +38,16 @@ const config: MenuEntry[] = [
   //   icon: 'TicketIcon',
   //   href: 'https://salt-frontend-farms.netlify.app/lottery'
   // },
-  {
-    label: 'Info',
-    icon: 'InfoIcon',
-    items: [
-      {
-        label: 'SaltSwap',
-        href: 'https://saltswap.info/token/TODO',
-      },
-    ]
-  },
+  // {
+  //   label: 'Info',
+  //   icon: 'InfoIcon',
+  //   items: [
+  //     {
+  //       label: 'SaltSwap',
+  //       href: 'https://saltswap.info/token/TODO',
+  //     },
+  //   ]
+  // },
   {
     label: 'More',
     icon: 'MoreIcon',
@@ -57,17 +59,20 @@ const config: MenuEntry[] = [
       {
         label: "Github",
         href: "https://github.com/saltswap/",
+        icon: 'GithubIcon'
       },
       {
         label: "Docs",
         href: "https://saltswap.gitbook.io/salt-swap",
+        icon: 'GitbookIcon'
       },
       {
         label: "Blog",
         href: "https://saltswap.medium.com",
+        icon: 'MediumIcon'
       },
     ],
-  }
+  },
 ]
 
 export default config
