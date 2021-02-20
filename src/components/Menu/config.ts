@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://salt-frontend-farms.netlify.app/'
+    href: 'https://saltswap.finance'
   },
   {
     label: 'Trade',
@@ -26,17 +26,17 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://salt-frontend-farms.netlify.app/farms'
+    href: 'https://saltswap.finance/farms'
   },
   {
     label: 'Salty Pools',
     icon: 'PoolIcon',
-    href: 'https://salt-frontend-farms.netlify.app/pools'
+    href: 'https://saltswap.finance/pools'
   },
   // {
   //   label: 'Lottery',
   //   icon: 'TicketIcon',
-  //   href: 'https://salt-frontend-farms.netlify.app/lottery'
+  //   href: 'https://saltswap.finance/lottery'
   // },
   // {
   //   label: 'Info',
