@@ -80,6 +80,14 @@
       "logoURI": "/images/coins/ETH.png"
     },
     {
+      "name": "Binance Beacon ETH",
+      "symbol": "BETH",
+      "address": "0x250632378e573c6be1ac2f97fcdf00515d0aa91b",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "/images/coins/BETH.png"
+    },
+    {
       "name": "BTCB Token",
       "symbol": "BTCB",
       "address": "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c",
