@@ -29,7 +29,7 @@ const config: MenuEntry[] = [
     href: 'https://www.saltswap.finance/farms'
   },
   {
-    label: 'Salty Pools',
+    label: 'Oceans',
     icon: 'PoolIcon',
     href: 'https://www.saltswap.finance/pools'
   },
