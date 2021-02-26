@@ -7,21 +7,14 @@ const config: MenuEntry[] = [
     href: 'https://www.saltswap.finance'
   },
   {
-    label: 'Trade',
-    icon: 'TradeIcon',
-    initialOpenState: true,
-    items: [
-      {
-        label: 'Exchange',
-        href: '/swap',
-        icon: "ExchangeIcon"
-      },
-      {
-        label: 'Liquidity',
-        href: '/pool',
-        icon: 'LiquidityIcon'
-      }
-    ]
+    label: 'Exchange',
+    href: '/swap',
+    icon: "ExchangeIcon"
+  },
+  {
+    label: 'Liquidity',
+    href: '/pool',
+    icon: 'LiquidityIcon'
   },
   {
     label: 'Farms',
@@ -29,9 +22,14 @@ const config: MenuEntry[] = [
     href: 'https://www.saltswap.finance/farms'
   },
   {
-    label: 'Oceans',
+    label: 'Pools',
     icon: 'PoolIcon',
     href: 'https://www.saltswap.finance/pools'
+  },
+  {
+    label: 'Oceans 🆕',
+    icon: 'WaveIcon',
+    href: 'https://www.saltswap.finance/oceans'
   },
   // {
   //   label: 'Lottery',
