@@ -36,6 +36,16 @@ const config: MenuEntry[] = [
     icon: 'AuditIcon',
     href: 'https://www.saltswap.finance/files/certik.pdf',
   },
+  {
+    label: 'Listings',
+    icon: 'ListingIcon',
+    items: [
+      {
+        label: 'DappRadar',
+        href: 'https://dappradar.com/binance-smart-chain/defi/saltswap',
+      },
+    ],
+  },
   // {
   //   label: 'Lottery',
   //   icon: 'TicketIcon',
