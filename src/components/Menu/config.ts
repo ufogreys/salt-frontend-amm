@@ -37,6 +37,11 @@ const config: MenuEntry[] = [
     href: '/',
   },
   {
+    label: 'Price Graph',
+    icon: 'GraphIcon',
+    href: 'https://www.saltswap.finance/graph',
+  },
+  {
     label: 'Listings',
     icon: 'ListingIcon',
     items: [
