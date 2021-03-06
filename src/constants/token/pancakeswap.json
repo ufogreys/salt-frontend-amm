@@ -48,6 +48,22 @@
       "logoURI": "/images/coins/SLIME.png"
     },
     {
+      "name": "EGG",
+      "symbol": "EGG",
+      "address": "0xf952fc3ca7325cc27d15885d37117676d25bfda6",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "/images/coins/EGG.png"
+    },
+    {
+      "name": "BREW",
+      "symbol": "BREW",
+      "address": "0x790be81c3ca0e53974be2688cdb954732c9862e1",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "/images/coins/BREW.png"
+    },
+    {
       "name": "LP3 Token",
       "symbol": "LP3",
       "address": "0xe70b7523f4bffa1f2e88d2ba709afd026030f412",
