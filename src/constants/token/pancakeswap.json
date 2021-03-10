@@ -673,5 +673,13 @@
       "chainId": 56,
       "decimals": 18
     }
+    ,
+    {
+      "name": "Cryptocoin",
+      "symbol": "CMC",
+      "address": "0xb7f80a74aaa4fd30a3ee7c03fde3dc88e6002c12",
+      "chainId": 56,
+      "decimals": 8
+    }
   ]
 }
