@@ -27,9 +27,14 @@ const config: MenuEntry[] = [
     href: 'https://www.saltswap.finance/pools'
   },
   {
-    label: 'Oceans 🆕',
+    label: 'Oceans',
     icon: 'WaveIcon',
-    href: 'https://www.saltswap.finance/oceans'
+    href: 'https://www.saltswap.finance/oceans',
+  },
+  {
+    label: 'Lottery 🆕',
+    icon: 'TicketIcon',
+    href: 'https://www.saltswap.finance/lottery',
   },
   {
     label: 'Audit By Certik in progress...',
