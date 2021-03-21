@@ -37,6 +37,11 @@ const config: MenuEntry[] = [
     href: 'https://www.saltswap.finance/lottery',
   },
   {
+    label: 'Launchpad (IDOs)',
+    icon: 'IfoIcon',
+    href: '/ido',
+  },
+  {
     label: 'Audit By Certik in progress...',
     icon: 'AuditIcon',
     href: '/',
