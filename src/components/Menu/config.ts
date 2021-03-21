@@ -39,7 +39,7 @@ const config: MenuEntry[] = [
   {
     label: 'Launchpad (IDOs)',
     icon: 'IfoIcon',
-    href: '/ido',
+    href: 'https://www.saltswap.finance/ido',
   },
   {
     label: 'Audit By Certik in progress...',
