@@ -32,7 +32,7 @@ const config: MenuEntry[] = [
     href: 'https://www.saltswap.finance/oceans',
   },
   {
-    label: 'Lottery 🆕',
+    label: 'Lottery',
     icon: 'TicketIcon',
     href: 'https://www.saltswap.finance/lottery',
   },
