@@ -42,9 +42,9 @@ const config: MenuEntry[] = [
     href: 'https://www.saltswap.finance/ido',
   },
   {
-    label: 'Audit By Certik in progress...',
+    label: 'Audited By Certik ✅',
     icon: 'AuditIcon',
-    href: '/',
+    href: 'https://certik.org/projects/saltswap',
   },
   {
     label: 'Price Graph',
