@@ -686,6 +686,27 @@
       "address": "0x36C0556c2B15aED79F842675Ff030782738eF9e8",
       "chainId": 56,
       "decimals": 18
+    }, 
+    {
+      "name": "MomoProtocol",
+      "symbol": "MOMO",
+      "address": "0xafb2997fe9a99022e61c7e01b974e0e3d7704b02",
+      "chainId": 56,
+      "decimals": 8
+    },
+    {
+      "name": "RebasingProtocol",
+      "symbol": "RBT",
+      "address": "0xdd3f196c59df7bdabc18bbcffb6440298ae117e2",
+      "chainId": 56,
+      "decimals": 8
+    },
+    {
+      "name": "CoolSwap",
+      "symbol": "COOL",
+      "address": "0x612049f4faa9fe735f6b2be47d37f9bc4142cf27",
+      "chainId": 56,
+      "decimals": 8
     }
   ]
 }
