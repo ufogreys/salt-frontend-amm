@@ -707,6 +707,13 @@
       "address": "0x612049f4faa9fe735f6b2be47d37f9bc4142cf27",
       "chainId": 56,
       "decimals": 18
+    },
+    {
+      "name": "YieldBay",
+      "symbol": "PALM",
+      "address": "0x9768E5b2d8e761905BC81Dfc554f9437A46CdCC6",
+      "chainId": 56,
+      "decimals": 18
     }
   ]
 }
