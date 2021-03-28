@@ -714,6 +714,13 @@
       "address": "0x9768E5b2d8e761905BC81Dfc554f9437A46CdCC6",
       "chainId": 56,
       "decimals": 18
+    },
+    {
+      "name": "MagnificoChef",
+      "symbol": "MCH",
+      "address": "0x46483f3a766ae2c0c811ff953ac3dc69a3a20968",
+      "chainId": 56,
+      "decimals": 8
     }
   ]
 }
