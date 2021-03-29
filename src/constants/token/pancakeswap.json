@@ -721,6 +721,13 @@
       "address": "0x46483f3a766ae2c0c811ff953ac3dc69a3a20968",
       "chainId": 56,
       "decimals": 8
+    },
+    {
+      "name": "Railoracle",
+      "symbol": "RAIL",
+      "address": "0x2b28688e290af66fbf67280937399140b5f1dda3",
+      "chainId": 56,
+      "decimals": 18
     }
   ]
 }
