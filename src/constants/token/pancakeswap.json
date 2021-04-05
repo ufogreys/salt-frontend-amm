@@ -728,6 +728,13 @@
       "address": "0x2b28688e290af66fbf67280937399140b5f1dda3",
       "chainId": 56,
       "decimals": 18
+    },
+    {
+      "name": "Digimon",
+      "symbol": "Digimon",
+      "address": "0xf7f11fbfab1200d42cc8665b9dc52f5e3099a21d",
+      "chainId": 56,
+      "decimals": 18
     }
   ]
 }
