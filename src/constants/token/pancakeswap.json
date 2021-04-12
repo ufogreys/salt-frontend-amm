@@ -742,6 +742,20 @@
       "address": "0xceB2f5e9C7F2D3BCd12A7560D73c56f3396af3F9",
       "chainId": 56,
       "decimals": 18
+    },
+    {
+      "name": "Ozone Finance",
+      "symbol": "OZONE",
+      "address": "0xab6d9943959253e97c6979639f1fb386c0ed488a",
+      "chainId": 56,
+      "decimals": 18
+    },
+    {
+      "name": "JDIToken",
+      "symbol": "JDI",
+      "address": "0x0491648c910ad2c1afaab733faf71d30313df7fc",
+      "chainId": 56,
+      "decimals": 18
     }
   ]
 }
