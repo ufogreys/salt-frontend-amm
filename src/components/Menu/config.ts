@@ -4,52 +4,52 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://www.saltswap.finance'
+    href: 'https://salt-frontend-farms-g0zd0k2r8-ufogreys.vercel.app/'
   },
   {
     label: 'Exchange',
-    href: '/swap',
+    href: 'https://salt-frontend-pctzm8sk5-ufogreys.vercel.app/#/swap',
     icon: "ExchangeIcon"
   },
   {
     label: 'Liquidity',
-    href: '/pool',
+    href: 'https://salt-frontend-pctzm8sk5-ufogreys.vercel.app/#/pool',
     icon: 'LiquidityIcon'
   },
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://www.saltswap.finance/farms'
+    href: 'https://salt-frontend-farms-g0zd0k2r8-ufogreys.vercel.app/farms'
   },
   {
     label: 'Pools',
     icon: 'PoolIcon',
-    href: 'https://www.saltswap.finance/pools'
+    href: 'https://salt-frontend-farms-g0zd0k2r8-ufogreys.vercel.app/pools'
   },
   {
     label: 'Oceans',
     icon: 'WaveIcon',
-    href: 'https://www.saltswap.finance/oceans',
+    href: 'https://salt-frontend-farms-g0zd0k2r8-ufogreys.vercel.app/oceans',
   },
   {
     label: 'Lottery',
     icon: 'TicketIcon',
-    href: 'https://www.saltswap.finance/lottery',
+    href: 'https://salt-frontend-farms-g0zd0k2r8-ufogreys.vercel.app/lottery',
   },
   {
     label: 'Launchpad (IDOs)',
     icon: 'IdoIcon',
-    href: 'https://www.saltswap.finance/ido',
+    href: 'https://salt-frontend-farms-g0zd0k2r8-ufogreys.vercel.app/ido',
   },
   {
     label: 'Audited By Certik ✅',
     icon: 'AuditIcon',
-    href: 'https://certik.org/projects/saltswap',
+    href: 'https://certik.org/projects/in-dex-sale',
   },
   {
     label: 'Price Graph',
     icon: 'GraphIcon',
-    href: 'https://www.saltswap.finance/graph',
+    href: 'https://poocoin.app/tokens/',
   },
   {
     label: 'Listings',
@@ -57,30 +57,30 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'CoinMarketCap',
-        href: 'https://coinmarketcap.com/currencies/saltswap-finance',
+        href: 'https://coinmarketcap.com/currencies/in-dex-sale',
       },
       {
         label: 'CoinGecko',
-        href: 'https://www.coingecko.com/en/coins/saltswap',
+        href: 'https://www.coingecko.com/en/coins/in-dex-sale',
       },
       {
         label: 'DappRadar',
-        href: 'https://dappradar.com/binance-smart-chain/defi/saltswap',
+        href: 'https://dappradar.com/binance-smart-chain/defi/in-dex-sale',
       },
     ],
   },
   // {
   //   label: 'Lottery',
   //   icon: 'TicketIcon',
-  //   href: 'https://www.saltswap.finance/lottery'
+  //   href: 'https://salt-frontend-farms-g0zd0k2r8-ufogreys.vercel.app/lottery'
   // },
   // {
   //   label: 'Info',
   //   icon: 'InfoIcon',
   //   items: [
   //     {
-  //       label: 'SaltSwap',
-  //       href: 'https://saltswap.info/token/TODO',
+  //       label: 'In-Dex-Sale',
+  //       href: 'https://in-dex-sale.info/token/in-dex-sale',
   //     },
   //   ]
   // },
@@ -90,21 +90,21 @@ const config: MenuEntry[] = [
     items: [
       // {
       //   label: 'Voting',
-      //   href: 'https://voting.saltswap.finance',
+      //   href: 'https://voting.in-dex-sale.finance',
       // },
       {
         label: "Github",
-        href: "https://github.com/saltswap/",
+        href: "https://github.com/ufogreys",
         icon: 'GithubIcon'
       },
       {
         label: "Docs",
-        href: "https://saltswap.gitbook.io/salt-swap",
+        href: "https://idsdefi.gitbook.io/in-dex-sale/the-company/about-this",
         icon: 'GitbookIcon'
       },
       {
-        label: "Blog",
-        href: "https://saltswap.medium.com",
+        label: "IDO Application",
+        href: "https://docs.google.com/forms/d/e/1FAIpQLSfxDeaFCD6BE5Lddt7Iq9b4fpjNj3P1H3Ejh0vqriRJpwe1IA/viewform",
         icon: 'MediumIcon'
       },
     ],
